@@ -24,6 +24,9 @@ const Head = () => {
 
 const Nav = styled.nav`
   display: flex;
+  height: 60px;
+  background-color: #e6e1e1;
+  align-items: center;
 `;
 
 const LeftNav = styled.div`
@@ -34,6 +37,13 @@ const ButtonBox = styled.div`
   margin-left: auto;
 `;
 
-const StyledLink = styled(Link)``;
+const StyledLink = styled(Link)`
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  color: #112d4e;
+  text-decoration: none;
+  margin: 0 20px;
+`;
 
 export default Head;
