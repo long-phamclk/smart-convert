@@ -23,4 +23,5 @@ const StyledButton = styled.button`
   border-radius: 5px;
   width: 130px;
   height: 30px;
+  cursor: pointer;
 `;
