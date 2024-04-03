@@ -71,7 +71,6 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
 `;
 
 const Inner = styled.div`
@@ -151,9 +150,9 @@ const Info = styled.div`
   height: auto;
 
   @media screen and (max-width: 768px) {
-    width: calc(100% - 20px); /*Take full width on smaller screens */
+    width: calc(100% - 20px); /* Take full width on smaller screens */
     max-width: 100%; /* Limit width on smaller screens */
-    margin-bottom: 20px; /*Added margin*/
+    margin-bottom: 20px; /* Added margin */
   }
 `;
 

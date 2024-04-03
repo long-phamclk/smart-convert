@@ -3,12 +3,14 @@ import "./components/styles.css";
 
 import Head from "./components/Head";
 import Front from "./components/Front";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
       <Head />
       <Front />
+      <Footer />
     </Router>
   );
 }
