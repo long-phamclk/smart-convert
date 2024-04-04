@@ -21,7 +21,11 @@ const StyledButton = styled.button`
   background-color: #ffffff;
   color: #112d4e;
   border-radius: 5px;
-  max-width: 130px;
+  width: 130px;
   height: 30px;
   cursor: pointer;
+
+  @media screen and (max-width: 768px) {
+    max-width: 130px;
+  }
 `;

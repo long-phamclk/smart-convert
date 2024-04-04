@@ -31,7 +31,9 @@ const Footer = () => {
 
 export default Footer;
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  height: auto;
+`;
 
 const Upper = styled.div`
   width: 100%;
@@ -69,8 +71,10 @@ const IconWrapper = styled.div`
 `;
 
 const Lower = styled.div`
-  height: 120px;
+  max-height: 120px;
   background-color: #112d4e;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
 `;
 
 const LinkWrapper = styled.div`
@@ -85,11 +89,18 @@ const StyledLink = styled(Link)`
   font-size: 14px;
   color: white;
   padding: 30px;
+  /* display: flex; */
+  justify-content: space-around;
+
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+  }
 `;
 
 const PWrapper = styled.div`
   display: flex;
   justify-content: center;
+  /* margin-bottom: 20px; */
 `;
 
 const P = styled.p`
