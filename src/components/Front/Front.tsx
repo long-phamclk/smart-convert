@@ -111,6 +111,7 @@ const Choose = styled.div`
   justify-content: center;
   align-items: center;
   margin: 20px 100px 80px 100px;
+  cursor: pointer;
 
   @media screen and (max-width: 768px) {
     margin: 0px;
