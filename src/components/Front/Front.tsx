@@ -26,8 +26,8 @@ const Front = () => {
             <Info>
               <Heading>All devices supported</Heading>
               <Para>
-                Convertio is browser-based and works for all platforms. There is
-                no need to download and install any software.
+                Smart Convert is browser-based and works for all platforms.
+                There is no need to download and install any software.
               </Para>
             </Info>
             <Info>
